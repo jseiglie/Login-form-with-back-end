@@ -9,7 +9,17 @@ export const Singup = props => {
 	const params = useParams();
 
 	return (
-		<></>
+		<div>
+			<h2>Not a member, do sign up</h2>
+			<form>
+				<label for='email'>Email</label>
+				<input type='text' required></input>
+				<label for='password'>Password</label>
+				<input type='password' required></input>
+				<button className="btn btn-primary" role='submit'>Submit</button>
+				<button className="btn btn-error">Cancel</button>
+			</form>
+		</div>
 	);
 };
 
