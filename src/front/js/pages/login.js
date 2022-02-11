@@ -8,6 +8,10 @@ export const Login = () => {
 
 	return (
 		<div className="container">
+			<p>Log in your account</p>
+			<input type='text' placeholder="email address"></input>
+			<input type='password' placeholder="password"></input>
+			<button className="btn btn-primary">Log In</button>
 			
 		</div>
 	);
