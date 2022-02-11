@@ -9,7 +9,11 @@ export const Private = props => {
 	const params = useParams();
 
 	return (
-		<></>
+		<div className="container">
+            <h1>Congrats! you signed in</h1>
+            <p>and now you are able to sign out! Yay!</p>
+            <button className="btn btn-primary">sign out</button>
+        </div>
 	);
 };
 
